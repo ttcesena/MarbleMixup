@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104298002254FE9F00B9D0BA /* GameOverTrigger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 104297FC2254FE9F00B9D0BA /* GameOverTrigger.wav */; };
+		104298012254FE9F00B9D0BA /* MarbleJump.wav in Resources */ = {isa = PBXBuildFile; fileRef = 104297FD2254FE9F00B9D0BA /* MarbleJump.wav */; };
+		104298022254FE9F00B9D0BA /* MarbleLevelMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 104297FE2254FE9F00B9D0BA /* MarbleLevelMusic.mp3 */; };
+		104298032254FE9F00B9D0BA /* VictoryTrigger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 104297FF2254FE9F00B9D0BA /* VictoryTrigger.wav */; };
+		1092E9602220936000C53895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1092E95F2220936000C53895 /* AppDelegate.swift */; };
+		1092E9642220936000C53895 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1092E9632220936000C53895 /* GameViewController.swift */; };
+		1092E9672220936000C53895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1092E9652220936000C53895 /* Main.storyboard */; };
+		1092E9692220936200C53895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1092E9682220936200C53895 /* Assets.xcassets */; };
+		1092E96C2220936200C53895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1092E96A2220936200C53895 /* LaunchScreen.storyboard */; };
+		1092E9772220936200C53895 /* TCesena_MarbleGameTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1092E9762220936200C53895 /* TCesena_MarbleGameTestTests.swift */; };
+		1092E9822220936200C53895 /* TCesena_MarbleGameTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1092E9812220936200C53895 /* TCesena_MarbleGameTestUITests.swift */; };
+		1092E9902220949B00C53895 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 1092E98F2220949B00C53895 /* art.scnassets */; };
+		10D35B9E2224500B00803AD7 /* MotionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D35B9C2224500A00803AD7 /* MotionHelper.swift */; };
+		10D35B9F2224500B00803AD7 /* VectorOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D35B9D2224500A00803AD7 /* VectorOperations.swift */; };
+		AA21341E2270B92A00DF65CC /* 2ndLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA21341D2270B92A00DF65CC /* 2ndLevelViewController.swift */; };
+		AA287140227748F200C70641 /* MarbleTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = AA28713F227748F200C70641 /* MarbleTitle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1092E9732220936200C53895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1092E9542220936000C53895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1092E95B2220936000C53895;
+			remoteInfo = TCesena_MarbleGameTest;
+		};
+		1092E97E2220936200C53895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1092E9542220936000C53895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1092E95B2220936000C53895;
+			remoteInfo = TCesena_MarbleGameTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		104297FC2254FE9F00B9D0BA /* GameOverTrigger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = GameOverTrigger.wav; sourceTree = "<group>"; };
+		104297FD2254FE9F00B9D0BA /* MarbleJump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = MarbleJump.wav; sourceTree = "<group>"; };
+		104297FE2254FE9F00B9D0BA /* MarbleLevelMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MarbleLevelMusic.mp3; sourceTree = "<group>"; };
+		104297FF2254FE9F00B9D0BA /* VictoryTrigger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = VictoryTrigger.wav; sourceTree = "<group>"; };
+		1092E95C2220936000C53895 /* TCesena_MarbleGameTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCesena_MarbleGameTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1092E95F2220936000C53895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1092E9632220936000C53895 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1092E9662220936000C53895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1092E9682220936200C53895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1092E96B2220936200C53895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1092E96D2220936200C53895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1092E9722220936200C53895 /* TCesena_MarbleGameTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCesena_MarbleGameTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1092E9762220936200C53895 /* TCesena_MarbleGameTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCesena_MarbleGameTestTests.swift; sourceTree = "<group>"; };
+		1092E9782220936200C53895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1092E97D2220936200C53895 /* TCesena_MarbleGameTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCesena_MarbleGameTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1092E9812220936200C53895 /* TCesena_MarbleGameTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCesena_MarbleGameTestUITests.swift; sourceTree = "<group>"; };
+		1092E9832220936200C53895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1092E98F2220949B00C53895 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		10D35B9C2224500A00803AD7 /* MotionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionHelper.swift; sourceTree = "<group>"; };
+		10D35B9D2224500A00803AD7 /* VectorOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorOperations.swift; sourceTree = "<group>"; };
+		AA21341D2270B92A00DF65CC /* 2ndLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndLevelViewController.swift; sourceTree = "<group>"; };
+		AA28713F227748F200C70641 /* MarbleTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MarbleTitle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1092E9592220936000C53895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1092E96F2220936200C53895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1092E97A2220936200C53895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		104297FB2254FE9F00B9D0BA /* Game Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				104297FC2254FE9F00B9D0BA /* GameOverTrigger.wav */,
+				104297FD2254FE9F00B9D0BA /* MarbleJump.wav */,
+				104297FE2254FE9F00B9D0BA /* MarbleLevelMusic.mp3 */,
+				104297FF2254FE9F00B9D0BA /* VictoryTrigger.wav */,
+			);
+			path = "Game Sounds";
+			sourceTree = "<group>";
+		};
+		1092E9532220936000C53895 = {
+			isa = PBXGroup;
+			children = (
+				AA28713F227748F200C70641 /* MarbleTitle.png */,
+				1092E95E2220936000C53895 /* TCesena_MarbleGameTest */,
+				1092E9752220936200C53895 /* TCesena_MarbleGameTestTests */,
+				1092E9802220936200C53895 /* TCesena_MarbleGameTestUITests */,
+				1092E95D2220936000C53895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1092E95D2220936000C53895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1092E95C2220936000C53895 /* TCesena_MarbleGameTest.app */,
+				1092E9722220936200C53895 /* TCesena_MarbleGameTestTests.xctest */,
+				1092E97D2220936200C53895 /* TCesena_MarbleGameTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1092E95E2220936000C53895 /* TCesena_MarbleGameTest */ = {
+			isa = PBXGroup;
+			children = (
+				104297FB2254FE9F00B9D0BA /* Game Sounds */,
+				10D35B9B2224500A00803AD7 /* Helper */,
+				1092E98F2220949B00C53895 /* art.scnassets */,
+				1092E95F2220936000C53895 /* AppDelegate.swift */,
+				1092E9682220936200C53895 /* Assets.xcassets */,
+				1092E9632220936000C53895 /* GameViewController.swift */,
+				AA21341D2270B92A00DF65CC /* 2ndLevelViewController.swift */,
+				1092E9652220936000C53895 /* Main.storyboard */,
+				1092E96A2220936200C53895 /* LaunchScreen.storyboard */,
+				1092E96D2220936200C53895 /* Info.plist */,
+			);
+			path = TCesena_MarbleGameTest;
+			sourceTree = "<group>";
+		};
+		1092E9752220936200C53895 /* TCesena_MarbleGameTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				1092E9762220936200C53895 /* TCesena_MarbleGameTestTests.swift */,
+				1092E9782220936200C53895 /* Info.plist */,
+			);
+			path = TCesena_MarbleGameTestTests;
+			sourceTree = "<group>";
+		};
+		1092E9802220936200C53895 /* TCesena_MarbleGameTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1092E9812220936200C53895 /* TCesena_MarbleGameTestUITests.swift */,
+				1092E9832220936200C53895 /* Info.plist */,
+			);
+			path = TCesena_MarbleGameTestUITests;
+			sourceTree = "<group>";
+		};
+		10D35B9B2224500A00803AD7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				10D35B9C2224500A00803AD7 /* MotionHelper.swift */,
+				10D35B9D2224500A00803AD7 /* VectorOperations.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1092E95B2220936000C53895 /* TCesena_MarbleGameTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1092E9862220936200C53895 /* Build configuration list for PBXNativeTarget "TCesena_MarbleGameTest" */;
+			buildPhases = (
+				1092E9582220936000C53895 /* Sources */,
+				1092E9592220936000C53895 /* Frameworks */,
+				1092E95A2220936000C53895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCesena_MarbleGameTest;
+			productName = TCesena_MarbleGameTest;
+			productReference = 1092E95C2220936000C53895 /* TCesena_MarbleGameTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1092E9712220936200C53895 /* TCesena_MarbleGameTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1092E9892220936200C53895 /* Build configuration list for PBXNativeTarget "TCesena_MarbleGameTestTests" */;
+			buildPhases = (
+				1092E96E2220936200C53895 /* Sources */,
+				1092E96F2220936200C53895 /* Frameworks */,
+				1092E9702220936200C53895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1092E9742220936200C53895 /* PBXTargetDependency */,
+			);
+			name = TCesena_MarbleGameTestTests;
+			productName = TCesena_MarbleGameTestTests;
+			productReference = 1092E9722220936200C53895 /* TCesena_MarbleGameTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1092E97C2220936200C53895 /* TCesena_MarbleGameTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1092E98C2220936200C53895 /* Build configuration list for PBXNativeTarget "TCesena_MarbleGameTestUITests" */;
+			buildPhases = (
+				1092E9792220936200C53895 /* Sources */,
+				1092E97A2220936200C53895 /* Frameworks */,
+				1092E97B2220936200C53895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1092E97F2220936200C53895 /* PBXTargetDependency */,
+			);
+			name = TCesena_MarbleGameTestUITests;
+			productName = TCesena_MarbleGameTestUITests;
+			productReference = 1092E97D2220936200C53895 /* TCesena_MarbleGameTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1092E9542220936000C53895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tristan Cesena";
+				TargetAttributes = {
+					1092E95B2220936000C53895 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1092E9712220936200C53895 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1092E95B2220936000C53895;
+					};
+					1092E97C2220936200C53895 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1092E95B2220936000C53895;
+					};
+				};
+			};
+			buildConfigurationList = 1092E9572220936000C53895 /* Build configuration list for PBXProject "TCesena_MarbleGameTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1092E9532220936000C53895;
+			productRefGroup = 1092E95D2220936000C53895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1092E95B2220936000C53895 /* TCesena_MarbleGameTest */,
+				1092E9712220936200C53895 /* TCesena_MarbleGameTestTests */,
+				1092E97C2220936200C53895 /* TCesena_MarbleGameTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1092E95A2220936000C53895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1092E96C2220936200C53895 /* LaunchScreen.storyboard in Resources */,
+				104298022254FE9F00B9D0BA /* MarbleLevelMusic.mp3 in Resources */,
+				104298032254FE9F00B9D0BA /* VictoryTrigger.wav in Resources */,
+				104298012254FE9F00B9D0BA /* MarbleJump.wav in Resources */,
+				AA287140227748F200C70641 /* MarbleTitle.png in Resources */,
+				1092E9902220949B00C53895 /* art.scnassets in Resources */,
+				104298002254FE9F00B9D0BA /* GameOverTrigger.wav in Resources */,
+				1092E9692220936200C53895 /* Assets.xcassets in Resources */,
+				1092E9672220936000C53895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1092E9702220936200C53895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1092E97B2220936200C53895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1092E9582220936000C53895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA21341E2270B92A00DF65CC /* 2ndLevelViewController.swift in Sources */,
+				10D35B9F2224500B00803AD7 /* VectorOperations.swift in Sources */,
+				1092E9642220936000C53895 /* GameViewController.swift in Sources */,
+				1092E9602220936000C53895 /* AppDelegate.swift in Sources */,
+				10D35B9E2224500B00803AD7 /* MotionHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1092E96E2220936200C53895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1092E9772220936200C53895 /* TCesena_MarbleGameTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1092E9792220936200C53895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1092E9822220936200C53895 /* TCesena_MarbleGameTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1092E9742220936200C53895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1092E95B2220936000C53895 /* TCesena_MarbleGameTest */;
+			targetProxy = 1092E9732220936200C53895 /* PBXContainerItemProxy */;
+		};
+		1092E97F2220936200C53895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1092E95B2220936000C53895 /* TCesena_MarbleGameTest */;
+			targetProxy = 1092E97E2220936200C53895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1092E9652220936000C53895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1092E9662220936000C53895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1092E96A2220936200C53895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1092E96B2220936200C53895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1092E9842220936200C53895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1092E9852220936200C53895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1092E9872220936200C53895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U58MZF89X;
+				INFOPLIST_FILE = TCesena_MarbleGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TCesena.TCesena-MarbleGameTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1092E9882220936200C53895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U58MZF89X;
+				INFOPLIST_FILE = TCesena_MarbleGameTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TCesena.TCesena-MarbleGameTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1092E98A2220936200C53895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCesena_MarbleGameTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TCesena.TCesena-MarbleGameTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCesena_MarbleGameTest.app/TCesena_MarbleGameTest";
+			};
+			name = Debug;
+		};
+		1092E98B2220936200C53895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCesena_MarbleGameTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TCesena.TCesena-MarbleGameTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCesena_MarbleGameTest.app/TCesena_MarbleGameTest";
+			};
+			name = Release;
+		};
+		1092E98D2220936200C53895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCesena_MarbleGameTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TCesena.TCesena-MarbleGameTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCesena_MarbleGameTest;
+			};
+			name = Debug;
+		};
+		1092E98E2220936200C53895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TCesena_MarbleGameTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "TCesena.TCesena-MarbleGameTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TCesena_MarbleGameTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1092E9572220936000C53895 /* Build configuration list for PBXProject "TCesena_MarbleGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1092E9842220936200C53895 /* Debug */,
+				1092E9852220936200C53895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1092E9862220936200C53895 /* Build configuration list for PBXNativeTarget "TCesena_MarbleGameTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1092E9872220936200C53895 /* Debug */,
+				1092E9882220936200C53895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1092E9892220936200C53895 /* Build configuration list for PBXNativeTarget "TCesena_MarbleGameTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1092E98A2220936200C53895 /* Debug */,
+				1092E98B2220936200C53895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1092E98C2220936200C53895 /* Build configuration list for PBXNativeTarget "TCesena_MarbleGameTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1092E98D2220936200C53895 /* Debug */,
+				1092E98E2220936200C53895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1092E9542220936000C53895 /* Project object */;
+}
